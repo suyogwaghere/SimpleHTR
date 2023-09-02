@@ -1,0 +1,52 @@
+2023-08-27 12:56:49.046562: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudart64_110.dll
+2023-08-27 12:56:50.461498: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library nvcuda.dll
+2023-08-27 12:56:50.493494: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce RTX 4050 Laptop GPU computeCapability: 8.9
+coreClock: 2.355GHz coreCount: 20 deviceMemorySize: 6.00GiB deviceMemoryBandwidth: 178.84GiB/s
+2023-08-27 12:56:50.493527: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudart64_110.dll
+2023-08-27 12:56:50.535510: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cublas64_11.dll
+2023-08-27 12:56:50.535537: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cublasLt64_11.dll
+2023-08-27 12:56:50.544126: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cufft64_10.dll
+2023-08-27 12:56:50.545036: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library curand64_10.dll
+2023-08-27 12:56:50.643497: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cusolver64_11.dll
+2023-08-27 12:56:50.647181: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cusparse64_11.dll
+2023-08-27 12:56:50.647619: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudnn64_8.dll
+2023-08-27 12:56:50.647666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+C:\Users\suyog\anaconda3\envs\new\lib\site-packages\tensorflow\python\keras\engine\base_layer_v1.py:1692: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+WARNING:tensorflow:From C:\Users\suyog\anaconda3\envs\new\lib\site-packages\tensorflow\python\keras\layers\normalization.py:534: _colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:`tf.nn.rnn_cell.MultiRNNCell` is deprecated. This class is equivalent as `tf.keras.layers.StackedRNNCells`, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From S:\Collage\SimpleHTR\src\model.py:94: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+WARNING:tensorflow:From C:\Users\suyog\anaconda3\envs\new\lib\site-packages\tensorflow\python\ops\rnn.py:438: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+C:\Users\suyog\anaconda3\envs\new\lib\site-packages\tensorflow\python\keras\engine\base_layer_v1.py:1700: UserWarning: `layer.add_variable` is deprecated and will be removed in a future version. Please use `layer.add_weight` method instead.
+  warnings.warn('`layer.add_variable` is deprecated and '
+WARNING:tensorflow:From C:\Users\suyog\anaconda3\envs\new\lib\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:987: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-08-27 12:56:51.469219: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-27 12:56:51.470529: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: NVIDIA GeForce RTX 4050 Laptop GPU computeCapability: 8.9
+coreClock: 2.355GHz coreCount: 20 deviceMemorySize: 6.00GiB deviceMemoryBandwidth: 178.84GiB/s
+2023-08-27 12:56:51.470651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+2023-08-27 12:56:52.051110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1258] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-08-27 12:56:52.051139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1264]      0 
+2023-08-27 12:56:52.051143: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1277] 0:   N 
+2023-08-27 12:56:52.051241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3423 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 4050 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.9)
+2023-08-27 12:56:52.447100: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudnn64_8.dll
+2023-08-27 12:56:53.760133: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8904
+2023-08-27 12:56:54.371348: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cublas64_11.dll
+2023-08-27 12:56:55.180190: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cublasLt64_11.dll
+2023-08-27 12:56:55.347976: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+Num GPUs Available: 1
+Python: 3.9.17 (main, Jul  5 2023, 20:47:11) [MSC v.1916 64 bit (AMD64)]
+Tensorflow: 2.5.0
+Init with stored values from ../model/snapshot-5
+Recognized: "MOVE"
+Probability: 94.12%
